@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661336769,
+        "narHash": "sha256-5Sf9tMd1Jdm+lTBGspbQ4kEoYCDKpUhEVAZHRcm6mGU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "03428dbaaa23d6bf458770907b0927b377c873a8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgsFixed": {
+      "locked": {
+        "lastModified": 1661429933,
+        "narHash": "sha256-emD+/Y75pPB3VwQLckGKVCCtrt591EoAGwYO97WpXO4=",
+        "owner": "erikarvstedt",
+        "repo": "nixpkgs",
+        "rev": "0399c13d9e44f8db98c0904d69e8b1f2eaae3d2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "erikarvstedt",
+        "ref": "fix-disabled-modules-abs-paths",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixpkgsFixed": "nixpkgsFixed",
+        "subflake": "subflake"
+      }
+    },
+    "subflake": {
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-A3FOGm46OpIb7JCPvjzpou2Tj3qJ1WNM9rUh97t0nls=",
+        "path": "/nix/store/hx9d7gpc4cs5pa72bslkh5zdn9xzp61q-source/subflake",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/hx9d7gpc4cs5pa72bslkh5zdn9xzp61q-source/subflake",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
